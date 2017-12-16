@@ -241,14 +241,6 @@ void setup() {
 
 void loop() {
 
-  //pulse();
-
-  //morseString(MESSAGE, sizeof(MESSAGE) - 1); // morseString(텍스트, 텍스트 길이);
-
-  //morseString(NAME, sizeof(NAME) - 1);
-
-  //delay(5000); // 메시지가 반복되는 사이 시간
-
 
   TactState = digitalRead(TACT);
 
@@ -269,35 +261,6 @@ void loop() {
     //morseString(NAME, sizeof(NAME) - 1);
     delay(5000);
   }
-
-  /*
-    if (mode == 0) {
-      morseString(MESSAGE, sizeof(MESSAGE) - 1);
-      delay(5000);
-    }
-    if (TactState && mode == 0) {
-      mode = 1;
-    }
-    if (!TactState && mode == 1) {
-      mode = 2;
-    }
-    if (TactState && mode == 2) {
-      mode = 3;
-    }
-    if (TactState && mode == 3) {
-      digitalWrite(LED1, HIGH);
-      digitalWrite(LED2, HIGH);
-      digitalWrite(LED3, HIGH);
-    } else if (!TactState && mode == 3) {
-      digitalWrite(LED1, LOW);
-      digitalWrite(LED2, LOW);
-      digitalWrite(LED3, LOW);
-    }
-
-    if (mode == 2) {
-      pulse();
-    }
-  */
 
 
 }
