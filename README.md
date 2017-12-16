@@ -18,7 +18,7 @@
 2. LED에는 마이크로 컨트롤러에서 3개의 출력핀을 사용합니다. 밝기 제어를 위해 개별적으로 사용할 수 있습니다. 디폴트 세팅은 3개를 동시에 사용합니다.
 2. PCB상의 ICSP 포트르 사용해서 코드를 업로드하세요.
 3. 아두이노의 입력 포트로 사용할 수 있는 것은 버튼이 있습니다.
-4. PCB 제작을 위한 거버파일과 아두이노 코드를 다운받을 수 있습니다.
+4. 회로와 PCB 제작을 위한 파일, 아두이노 코드를 다운받을 수 있습니다.
 
 <img src=http://ringjoon.dothome.co.kr/morse_code_watch_01.jpg width=600>
 <img src=http://ringjoon.dothome.co.kr/morse_code_watch_02.jpg width=600>
