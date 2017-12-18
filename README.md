@@ -29,12 +29,12 @@ https://www.arduino.cc/en/Tutorial/ArduinoISP
 Arduino UNO 와 모스코드 워치의 왼쪽 상단의 ICSP 포트와의 결선 방법입니다.
 
 아두이노 - 모스코드 워치
-13 - SCK
-12 - MISO 
-11 - MOSI
-10 - RESET
-5+ - VTG
-GND - GND
+13 - SCK /
+12 - MISO /
+11 - MOSI /
+10 - RESET /
+5+ - VTG /
+GND - GND 
 
 <img src=https://www.arduino.cc/en/uploads/Tutorial/ISP.png>
   
