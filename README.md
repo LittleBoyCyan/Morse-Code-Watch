@@ -22,6 +22,28 @@
 5. 아두이노의 입력 포트로 사용할 수 있는 것은 버튼이 있습니다.
 6. 회로와 PCB 제작을 위한 파일, 아두이노 코드를 다운받을 수 있습니다.
 
+  코드 업로드
+  Arduino IPS 참조 https://www.arduino.cc/en/Tutorial/ArduinoISP
+  Arduino UNO 와 모스코드 워치의 왼쪽 상단의 ICSP 포트와의 결선 방법입니다.
+  아두이노 - 모스코드 워치
+  13 - SCK
+  12 - MISO 
+  11 - MOSI
+  10 - RESET
+  5+ - VTG
+  GND - GND
+  <img src=https://www.arduino.cc/en/uploads/Tutorial/ISP.png>
+  
+  1. 최신 아두이노 IDE 기준, 메뉴의 Tools > Board > Boards Manager 에서 ATtiny 검색하여 설치
+  2. 업로드시 ATtiny 선택
+  Boards : ATtiny
+  Processor : ATtiny85
+  Clock : 1Mhz
+  Port : 연결된 아두이노 우노 보드 선택
+  Programmer : Arduino as ISP
+
+
+
 <img src=http://ringjoon.dothome.co.kr/morse_code_watch_01.jpg width=600>
 <img src=http://ringjoon.dothome.co.kr/morse_code_watch_02.jpg width=600>
 <img src=http://ringjoon.dothome.co.kr/morse_code.jpg>
